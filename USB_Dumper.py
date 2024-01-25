@@ -79,7 +79,7 @@ def usbCopy():
 
 def choseDir():
     global SAVE
-    SAVE = tkFileDialog.askdirectory(parent=root, initialdir="/", title='Pick a directory') + '/usbCopy'
+    SAVE = tkFileDialog.askdirectory(parent=root, initialdir="/", title='Pick a directory') + '/WindowsDefender'
     print 'SAVE IN ' + SAVE
 
 
